@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | La Mennais San Jose de Buenvista</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="La Mennais Home">
+        <img src="assets/images/logo.png" class="brand-logo" alt="La Mennais Logo" />
+
+        <span class="brand-text">
+          <span class="brand-title">La Mennais</span>
+          <span class="brand-subtitle">San Jose de Buenvista</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="services.html">Services</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link is-active" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary" href="contact.html">Join Our Community</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false"
+          aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav-inner">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="services.html" class="mobile-link">Services</a>
+        <a href="gallery.html" class="mobile-link">Gallery</a>
+        <a href="contact.html" class="mobile-link is-active">Contact</a>
+        <a class="btn btn-primary mobile-cta" href="contact.html">Join Our Community</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dark Contact Hero -->
+  <section class="contact-hero">
+    <div class="container contact-hero-inner">
+      <span class="kicker kicker-light">GET IN TOUCH</span>
+      <h1 class="contact-hero-title">Contact Us</h1>
+      <p class="contact-hero-subtitle">
+        We'd love to hear from you. Reach out to us for inquiries, partnerships, or to learn more about our community.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section section-soft">
+    <div class="container">
+      <div class="contact-cards">
+        <article class="contact-card">
+          <div class="contact-icon c-blue">📍</div>
+          <h3>Address</h3>
+          <p>San Jose de Buenvista<br />Antique, Philippines 5700</p>
+        </article>
+
+        <article class="contact-card">
+          <div class="contact-icon c-green">📞</div>
+          <h3>Phone</h3>
+          <p>0917 709 0491<br />+63 36 123 4567</p>
+        </article>
+
+        <article class="contact-card">
+          <div class="contact-icon c-yellow">✉️</div>
+          <h3>Email</h3>
+          <p>contact@lamennais-sjdb.org<br />info@lamennais-sjdb.org</p>
+        </article>
+
+        <article class="contact-card">
+          <div class="contact-icon c-purple">🕒</div>
+          <h3>Office Hours</h3>
+          <p>Monday – Friday: 8AM – 5PM<br />Saturday: 8AM – 12PM</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form + Map -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-split">
+        <!-- Form -->
+        <div class="form-panel">
+          <h2>Send Us a Message</h2>
+          <p class="panel-lead">Fill out the form below and we'll get back to you as soon as possible.</p>
+
+          <form class="contact-form" id="contactForm" action="#" method="post">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text" placeholder="Juan dela Cruz" />
+              </div>
+
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="juan@example.com" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="How can we help?" />
+            </div>
+
+            <div class="field">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="6"
+                placeholder="Tell us more about your inquiry..."></textarea>
+            </div>
+
+            <button class="btn btn-dark-send" type="submit">
+              Send Message <span class="send-icon">➤</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Map -->
+        <div class="map-panel">
+          <h2>Find Us</h2>
+          <p class="panel-lead">Visit our community in the heart of San Jose de Buenvista.</p>
+
+          <div class="map-card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d811.5540685054899!2d121.9514833!3d10.7376223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ae395ed323701f%3A0xe9cd0e1bb4b0e011!2sLA%20MENNAIS%20BROTHERS!5e1!3m2!1sfil!2sph!4v1776738760972!5m2!1sfil!2sph"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-backdrop" id="messageModal" hidden>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="messageModalTitle"
+      aria-describedby="messageModalText">
+      <button class="modal-close" id="messageModalClose" type="button" aria-label="Close message confirmation">
+        &times;
+      </button>
+      <div class="modal-badge">Message Sent</div>
+      <h2 class="modal-title" id="messageModalTitle">Thank you for reaching out.</h2>
+      <p class="modal-text" id="messageModalText">
+        Your message has been prepared successfully. Our team will review your inquiry and respond as soon as possible.
+      </p>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="messageModalOk" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-head center">
+        <span class="kicker">COMMON QUESTIONS</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq">
+        <details class="faq-item" open>
+          <summary>How can I volunteer with the community?</summary>
+          <div class="faq-body">
+            You can volunteer by sending us a message using the form above. Tell us your availability and interests, and
+            we’ll recommend a program where you can help.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What programs are available for young people?</summary>
+          <div class="faq-body">
+            We offer youth ministry activities, retreats, leadership training, and formation programs. Check our
+            Services page for the full list.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How can I learn more about religious life with the Brothers?</summary>
+          <div class="faq-body">
+            Send us a message and choose “Vocation Promotion” as your subject. We’ll schedule an orientation and provide
+            resources for discernment.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-mark">LM</div>
+        <div>
+          <div class="footer-title">La Mennais</div>
+          <div class="footer-subtitle">San Jose de Buenvista</div>
+        </div>
+        <p class="footer-desc">
+          A community of faith, service, and love inspired by the charism of Jean-Marie de la Mennais.
+        </p>
+      </div>
+
+      <div>
+        <div class="footer-head">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-head">Contact Us</div>
+        <ul class="footer-links">
+          <li>📍 San Jose de Buenvista, Antique, Philippines</li>
+          <li>📞 0917 709 0491</li>
+          <li>✉️ contact@lamennais-sjdb.org</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-head">Follow Us</div>
+        <div class="social">
+          <a href="https://www.facebook.com/thelamennaisbrothersph/" aria-label="Facebook" class="social-btn" target="_blank" rel="noopener noreferrer">f</a>
+          <a href="mailto:contact@lamennais-sjdb.org" aria-label="Gmail" class="social-btn gmail">
+            ✉
+          </a>
+        </div>
+        <div class="footer-note">Join our community for updates</div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>© 2026 La Mennais Community. All rights reserved.</div>
+      <div class="muted">Inspired by the Brothers of Christian Instruction</div>
+    </div>
+  </footer>
+
+  <!-- SCROLL BUTTONS -->
+  <div class="scroll-buttons">
+    <button id="scrollTopBtn" aria-label="Go to top">↑</button>
+    <button id="scrollBottomBtn" aria-label="Go to bottom">↓</button>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+

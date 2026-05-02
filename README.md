@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Co-Pilot Log
 
 ## Student Information
@@ -103,3 +104,7 @@ AI helped me in the following areas:
 
 ## Final Reflection
 AI served as a support tool that improved my development speed, problem-solving process, and understanding of implementation techniques. Even with AI assistance, I remained responsible for reviewing outputs, refining the design, checking the structure, and making sure the website matched the project requirements.
+=======
+# WS101_FinalProject-Lamennais
+A simple website that promotes the Lamennais Brothers Community in San Jose, Antique
+>>>>>>> dbc403b3d8905d2aa3689fdf0705cbde4067fbce

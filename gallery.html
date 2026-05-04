@@ -38,9 +38,21 @@
 
       <div class="header-actions">
         <a class="btn btn-primary" href="contact.html">Join Our Community</a>
-        <button class="hamburger" id="hamburgerBtn">
+        <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
           <span></span><span></span><span></span>
         </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <div class="container mobile-nav-inner">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="services.html" class="mobile-link">Services</a>
+        <a href="gallery.html" class="mobile-link is-active">Gallery</a>
+        <a href="contact.html" class="mobile-link">Contact</a>
+        <a class="btn btn-primary mobile-cta" href="contact.html">Join Our Community</a>
       </div>
     </div>
   </header>

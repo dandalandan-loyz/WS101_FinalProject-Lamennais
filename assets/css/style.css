@@ -163,6 +163,10 @@ p{margin:0}
   background: #fff;
   border-radius: 12px;
   cursor:pointer;
+  position: relative;
+  z-index: 10;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 .hamburger span{
   display:block;
